@@ -31,10 +31,12 @@
             blog (CN only)</a>
     </div>
 </div>
-<button class="g-recaptcha"
-        data-sitekey="reCAPTCHA_site_key"
-        data-callback='onSubmit'
-        data-action='submit'>Submit</button>
+<div class="container">
+    <button class="g-recaptcha"
+            data-sitekey="reCAPTCHA_site_key"
+            data-callback='onSubmit'
+            data-action='submit'>Submit</button>
+</div>
 <script>
     function onSubmit(token) {
         document.getElementById("demo-form").submit();
